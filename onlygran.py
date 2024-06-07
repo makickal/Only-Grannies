@@ -1,11 +1,11 @@
 from pypresence import Presence
 import time
 
-client_id = '1248348135353356449'  # Replace with your application's client ID
-large_image_key = 'onlygran'  # Replace with the exact key of your uploaded large image
-large_image_text = 'Only Grannies'  # Text displayed when hovering over the large image
-small_image_key = 'none'  # Replace with the exact key of your uploaded small image
-small_image_text = 'Level 100'  # Text displayed when hovering over the small image
+client_id = '1248348135353356449'  # Baza is a BITCH
+large_image_key = 'onlygran'  
+large_image_text = 'Only Grannies'  
+small_image_key = 'none'  
+small_image_text = 'Level 100'  
 
 RPC = Presence(client_id)
 RPC.connect()
